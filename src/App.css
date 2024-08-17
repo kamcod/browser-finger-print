@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 30px;
 }
 
 .App-logo {
@@ -26,6 +27,35 @@
 
 .App-link {
   color: #61dafb;
+}
+
+button{
+  cursor: pointer;
+  padding: 10px 15px;
+  background: #038a03;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.info{
+  padding: 10px 0;
+  line-height: 30px;
+}
+.title{
+  color: #0d8f1b;
+  font-weight: 700;
+}
+.hash{
+  font-size: 26px;
+  font-weight: 600;
+}
+.separator{
+  margin: 10px auto;
+  width: 30%;
+  height: 1px;
+  background: darkgreen;
 }
 
 @keyframes App-logo-spin {
