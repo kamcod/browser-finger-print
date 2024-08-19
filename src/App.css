@@ -1,32 +1,12 @@
 .App {
-  text-align: center;
+  width: 70%;
+  margin: 0 auto;
   padding: 30px;
+  font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+.top-details{
+  text-align: center;
 }
 
 button{
@@ -35,9 +15,12 @@ button{
   background: #038a03;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 20px;
   font-size: 18px;
   font-weight: 600;
+}
+button:hover{
+  background: #13a813;
 }
 .info{
   padding: 10px 0;
@@ -50,6 +33,7 @@ button{
 .hash{
   font-size: 26px;
   font-weight: 600;
+  color: #ff8800;
 }
 .separator{
   margin: 10px auto;
@@ -58,11 +42,20 @@ button{
   background: darkgreen;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section{
+  margin-top: 25px;
+}
+.section-label{
+  color: #0d8f1b;
+  font-size: 18px;
+  font-weight: 700;
+}
+ul.section-list > li{
+  padding: 5px 0;
+}
+.list-label{
+  font-weight: 600;
+}
+.list-value{
+  margin-left: 8px;
 }
