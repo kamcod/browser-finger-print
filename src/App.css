@@ -39,7 +39,7 @@ button:hover{
   margin: 10px auto;
   width: 30%;
   height: 1px;
-  background: darkgreen;
+  background: #03ac03;
 }
 
 .section{
@@ -50,6 +50,9 @@ button:hover{
   font-size: 18px;
   font-weight: 700;
 }
+ul.section-list{
+  margin: 0;
+}
 ul.section-list > li{
   padding: 5px 0;
 }
@@ -58,4 +61,19 @@ ul.section-list > li{
 }
 .list-value{
   margin-left: 8px;
+}
+
+li.scroll-info{
+  list-style-type: none;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  width: 280px;
+  border: 1px solid green;
+  padding: 10px !important;
+  border-radius: 12px;
+  background: rgb(193, 241, 193);
+}
+li.scroll-info.title{
+  color: green;
 }
