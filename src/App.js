@@ -363,7 +363,7 @@ function App() {
                                     <ul>
                                         <li>
                                             <span>Battery Level:</span>
-                                            <span className="list-value">{data.battery?.level * 100}%</span>
+                                            <span className="list-value">{Number(data.battery?.level * 100).toFixed(2)}%</span>
                                         </li>
                                         <li>
                                             <span>Is Charging:</span>
